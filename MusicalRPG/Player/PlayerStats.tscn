@@ -1,0 +1,15 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://Stats.tscn" type="PackedScene" id=1]
+[ext_resource path="res://UI/GameOverTrans.tscn" type="PackedScene" id=2]
+
+[node name="PlayerStats" instance=ExtResource( 1 )]
+max_health = 6
+
+<<<<<<< HEAD
+[node name="GameOverTrans" parent="." index="0" instance=ExtResource( 2 )]
+[connection signal="no_health" from="." to="GameOverTrans" method="_on_PlayerStats_no_health"]
+=======
+[node name="CanvasLayer" parent="." index="0" instance=ExtResource( 2 )]
+[connection signal="no_health" from="." to="CanvasLayer" method="_on_PlayerStats_no_health"]
+>>>>>>> 359a0628a073ae86a0d78b7de5de3225a25ac6d0

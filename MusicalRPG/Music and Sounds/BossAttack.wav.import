@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/BossAttack.wav-09bfc5d837955f2b840265776b516eee.sample"
+
+[deps]
+
+source_file="res://Music and Sounds/BossAttack.wav"
+dest_files=[ "res://.import/BossAttack.wav-09bfc5d837955f2b840265776b516eee.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop=false
+compress/mode=0
